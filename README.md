@@ -4,8 +4,7 @@
 
 1. Create a new repository using the template
 1. Check out the repository (OR open it in Codespaces) and update `.github/octoslash/principals.json` to your GitHub details
-    > [!NOTE]
-    > You can get your GitHub ID by running `gh api "/user" --jq '.id'`
+    _You can get your GitHub ID by running `gh api "/user" --jq '.id'`_
 1. Create a new issue
 1. Try one of the builtin slash commands
 
