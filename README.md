@@ -1,5 +1,9 @@
 # Octoslash Demo
 
+This is a demo for [Octoslash](https://github.com/sagikazarmark/octoslash), a slash command framework for GitHub.
+
+Follow the instructions below to get started.
+
 ## In browser
 
 1. Create a new repository using the template
