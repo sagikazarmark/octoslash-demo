@@ -1,0 +1,18 @@
+name: Octoslash
+
+on: issue_comment
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Octoslash
+        uses: sagikazarmark/octoslash-action@v0
